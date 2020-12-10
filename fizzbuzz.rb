@@ -8,7 +8,6 @@ def fizzbuzz(int)
  
  elsifif int % 5 == 0
   "Buzz"
-end
 
 
 end
