@@ -3,6 +3,7 @@
 
 
 def fizzbuzz(number)
+  binding.pry
   if number % 3 == 0 
     return "Fizz"
 end
