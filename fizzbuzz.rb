@@ -11,10 +11,5 @@ def fizzbuzz(int)
   "Buzz"
 end
 
- elsif int % 5 && 3 == 0
-  "FizzBuzz"
-end
-
-else 
 
 end
