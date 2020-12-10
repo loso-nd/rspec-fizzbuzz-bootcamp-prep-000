@@ -3,7 +3,7 @@
 require "pry"
 
 def fizzbuzz(int)
- if (int % 3 && 5 == 0 )
+ if (i%3 === 0 && i%5 !== 0)
    "FizzBuzz"
  
 end
