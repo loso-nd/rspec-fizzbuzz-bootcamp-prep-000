@@ -2,8 +2,8 @@
 # See README.md for instructions on how to do this
 require "pry"
 
-a = "#{3 && 5}"
 def fizzbuzz(int)
+  binding.pry
  if int % 3 == 0 
    "Fizz"
  
