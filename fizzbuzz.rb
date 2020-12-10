@@ -5,5 +5,5 @@ require "pry"
 def fizzbuzz(num)
   binding.pry
   if num % 3 == 0
-    return "Fizz"
+  puts "Fizz"
 end
