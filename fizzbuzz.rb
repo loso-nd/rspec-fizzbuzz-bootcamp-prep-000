@@ -2,6 +2,7 @@
 # See README.md for instructions on how to do this
 require "pry"
 
+a = "#{3 && 5}"
 def fizzbuzz(int)
  if int % 3 == 0 
    "Fizz"
@@ -9,7 +10,7 @@ def fizzbuzz(int)
  elsif int % 5 == 0
   "Buzz"
   
- elsif int % 3 && 5 == 0
+ elsif int % a == 0
   "yerr"
 end
 
