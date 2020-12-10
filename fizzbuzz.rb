@@ -2,6 +2,8 @@
 # See README.md for instructions on how to do this
 require_relative './spec_helper.rb'
 
-def fizzbuzz
-
+def fizzbuzz(number)
+  if (number % 3)
+    returns "Fizz"
+  end
 end
