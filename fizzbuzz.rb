@@ -12,6 +12,9 @@ def fizzbuzz(int)
   
  elsif int % a == 0
   "yerr"
+  
+else
+  "fizzbuzz"
 end
 
 end
